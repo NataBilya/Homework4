@@ -1,0 +1,57 @@
+body{
+    background-color: #e2e2e2;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Alex Brush', cursive;
+    text-align: center;
+}
+.content{
+    width:700px;
+    border: 1px solid #c4c4c4;
+    padding:30px 40px;
+    margin: 20px auto;
+    background-color: #ffffff;
+}
+p::first-letter{
+    font-family: 'Shadows Into Light', cursive;
+    color: green;
+    font-size: 25px;
+}
+p{
+    font: 14px/1.5 Arial, Verdana, Helvetica, sans-serif;
+    text-indent: 35px;
+}
+.slogan{
+    font-family: 'Lobster', cursive;
+    color: green;
+    text-decoration: underline;
+    font-weight: bold;
+}
+* html ul li {
+float:left;
+height:1%;
+}
+li:nth-child(2n){
+    color: green;
+}
+li:nth-last-child(2) {
+   color: red;
+}
+ul:nth-of-type(2) {
+   border: 1px solid black;
+}
+a:link{
+    color: #1ADBAE;
+    margin: 20px 10px;
+}
+a:visited{
+    color: #DB6622;
+}
+a:hover{
+    color: #78FFF6;
+    text-decoration: none;
+}
+a:active{
+    color: #000000;
+}
